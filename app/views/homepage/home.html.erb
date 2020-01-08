@@ -1,0 +1,14 @@
+<h1>Homepage#home</h1>
+<p>Find me in app/views/homepage/home.html.erb</p>
+
+<% if current_user %>  
+    <% if current_user.usertype == 0 %>
+      <%= link_to "SET DEADLINE", addpaper_path %>
+      <%= link_to "DISABLE SCORING", addpaper_path %>
+      <%= link_to "ADD/REMOVE PAPERS", addpaper_path %>
+    <% elsif current_user.usertype == 1 %>
+      elevated
+    <% else %>
+      user
+    <% end %>
+<% end %>
