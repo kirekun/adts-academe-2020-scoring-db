@@ -22,7 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
->> bundle install
->> yarn install --check-files
->> rails db:migrate

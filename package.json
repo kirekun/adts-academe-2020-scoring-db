@@ -1,5 +1,5 @@
 {
-  "name": "academe_score",
+  "name": "helloworld",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
