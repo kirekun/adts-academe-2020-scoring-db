@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_01_07_121657) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "grades", force: :cascade do |t|
     t.boolean "status"
     t.integer "score"
